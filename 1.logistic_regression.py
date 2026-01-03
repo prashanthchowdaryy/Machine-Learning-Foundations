@@ -1,3 +1,35 @@
+# Logistic Regression (Binary Classification)
+
+This project demonstrates the implementation of Logistic Regression for binary classification using Python and Scikit-learn.
+
+## Overview
+Logistic Regression is a fundamental supervised learning algorithm used to model the probability of a binary outcome using the sigmoid function.
+
+## Workflow
+- Loaded and explored the dataset
+- Selected relevant features and target variable
+- Applied train-test split
+- Performed feature scaling using StandardScaler
+- Trained Logistic Regression classifier
+- Evaluated model using confusion matrix, accuracy score, and classification report
+
+## Key Learnings
+- Logistic Regression is sensitive to feature scaling
+- Confusion matrix provides deeper insight beyond accuracy
+- Classification report helps evaluate precision, recall, and F1-score
+
+## Tech Stack
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+
+## Output
+- Confusion Matrix
+- Accuracy Score
+- Classification Report
+
+
 # -*- coding: utf-8 -*-
 """
 Created on Tue Dec 30 10:01:19 2025
@@ -39,6 +71,7 @@ print(ac)
 
 from sklearn.metrics import classification_report
 cr=classification_report(y_test,y_pred)
+
 
 
 
