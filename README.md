@@ -85,3 +85,32 @@ SVM is a powerful supervised learning algorithm that works by finding the optima
 - Confusion Matrix
 - Accuracy Score
 
+# Naive Bayes Classification (GaussianNB)
+
+This project implements the Naive Bayes classification algorithm using Gaussian Naive Bayes from Scikit-learn.
+
+## Overview
+Naive Bayes is a probabilistic supervised learning algorithm based on Bayes’ theorem with the assumption of feature independence.
+
+## Workflow
+- Loaded and explored the dataset
+- Selected relevant features and target variable
+- Applied train-test split
+- Performed feature scaling using StandardScaler
+- Trained Gaussian Naive Bayes classifier
+- Evaluated model using confusion matrix and accuracy score
+
+## Key Learnings
+- Naive Bayes is fast and computationally efficient
+- Performs well even with strong independence assumptions
+- Suitable for baseline and large-scale problems
+
+## Tech Stack
+- Python
+- Pandas
+- Scikit-learn
+
+## Output
+- Confusion Matrix
+- Accuracy Score
+
