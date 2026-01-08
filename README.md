@@ -114,3 +114,37 @@ Naive Bayes is a probabilistic supervised learning algorithm based on Bayes’ t
 - Confusion Matrix
 - Accuracy Score
 
+# Decision Tree Classification
+
+This project demonstrates the implementation of a Decision Tree classifier using Python and Scikit-learn.
+
+## Overview
+Decision Trees are supervised learning algorithms that split data into branches based on feature conditions, forming a tree-like structure that is easy to interpret.
+
+## Workflow
+- Loaded and explored the dataset
+- Selected relevant features and target variable
+- Applied train-test split
+- Performed feature scaling
+- Trained Decision Tree classifier using entropy criterion
+- Evaluated model using confusion matrix and accuracy score
+
+## Model Configuration
+- Criterion: Entropy
+- Max Depth: 5
+- Random State: 0
+
+## Key Learnings
+- Decision Trees can model non-linear relationships effectively
+- Increasing tree depth can lead to overfitting
+- Limiting max depth improves generalization
+
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+## Output
+- Confusion Matrix
+- Accuracy Score
