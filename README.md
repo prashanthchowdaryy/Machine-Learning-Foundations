@@ -148,3 +148,41 @@ Decision Trees are supervised learning algorithms that split data into branches 
 ## Output
 - Confusion Matrix
 - Accuracy Score
+# Random Forest Classification
+
+This project implements the Random Forest classification algorithm using Python and Scikit-learn on the Social Network Ads dataset.
+
+## Overview
+Random Forest is an ensemble learning algorithm that combines multiple decision trees to improve predictive performance and reduce overfitting.
+
+## Workflow
+- Loaded and explored the dataset
+- Selected relevant features (Age, Estimated Salary)
+- Applied train-test split
+- Performed feature scaling
+- Trained Random Forest classifier using entropy criterion
+- Evaluated the model using confusion matrix and accuracy score
+
+## Model Configuration
+- Number of Trees (n_estimators): 30
+- Criterion: Entropy
+- Max Depth: 4
+- Random State: 0
+
+## Key Learnings
+- Random Forest reduces variance compared to a single Decision Tree
+- Ensemble learning improves model stability and generalization
+- Increasing the number of trees improves robustness but increases computation
+
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+## Output
+- Confusion Matrix
+- [[55  3]
+ [ 1 21]]
+- Accuracy Score 0.95
+- bias 0.921875
