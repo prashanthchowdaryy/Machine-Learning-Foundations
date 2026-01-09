@@ -63,3 +63,4 @@ print(ac)
 bias=classifier.score(x_train,y_train)
 bias
 
+
