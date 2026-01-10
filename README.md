@@ -186,3 +186,42 @@ Random Forest is an ensemble learning algorithm that combines multiple decision 
  [ 1 21]]
 - Accuracy Score 0.95
 - bias 0.921875
+# XGBoost Classification
+
+This project implements the XGBoost (Extreme Gradient Boosting) algorithm for binary classification using Python on the Social Network Ads dataset.
+
+## Overview
+XGBoost is a powerful ensemble learning algorithm based on gradient boosting that builds decision trees sequentially to correct the errors of previous models.
+
+## Workflow
+- Loaded and explored the dataset
+- Selected relevant features (Age, Estimated Salary)
+- Applied train-test split
+- Performed feature scaling
+- Trained XGBoost classifier with controlled depth and learning rate
+- Evaluated model using confusion matrix and accuracy score
+
+## Model Configuration
+- Number of Trees (n_estimators): 100
+- Max Depth: 4
+- Learning Rate: 0.1
+- Subsample: 0.8
+- Column Sample by Tree: 0.8
+- Evaluation Metric: Log Loss
+- Random State: 0
+
+## Key Learnings
+- Gradient boosting improves performance by learning from residual errors
+- Regularization helps prevent overfitting
+- XGBoost provides excellent accuracy and generalization on structured data
+
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+
+## Output
+- Confusion Matrix
+- Accuracy Score
